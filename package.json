@@ -1,0 +1,16 @@
+{
+  "name": "kaitohara",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-sass-middleware": "^0.9.6",
+    "path": "^0.12.7"
+  }
+}
