@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kaito Hara</title>
+	<link rel="icon" type="img/ico" href="images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"/> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div id="fullscreen">
+			<div id="full">
+				<!-- <div class="logo" id="home"><a href="#home">KAITO HARA</a> -->
+				<a href="#home" id="home"><img src="images/kh.png" class="logo-image"></a>
+				<!-- </div> -->
+				
+				<div class="link-icons">
+					<a target="_blank" href="https://github.com/kaitohara" class="fa fa-github"></a>
+					<a target="_blank" href="https://linkedin.com/in/kaitohara" class="fa fa-linkedin"></a>
+					<a target="_blank" href="https://soundcloud.com/kaitoh" class="fa fa-soundcloud"></a>
+				</div>
+				<div class="menu pull-right cl-effect-21">
+					<a href="#portfolio" class="menu-item go2portfolio">PORTFOLIO</a>
+					<!-- <a href="#blog" class="menu-item go2blog">BLOG</a> -->
+					<a href="#about" class="menu-item go2about">ABOUT</a>
+					<a href="#contact" class="menu-item go2contact">CONTACT</a>
+				</div>
+				<div class="burger-menu pull-right" id="menu-button">
+					<i class="fa fa-bars"></i>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<div class="clear-header"></div>
+
+	<div class="slide-space"></div>
+
+	<div class="slide-menu" style="position:fixed">
+		<ul>
+			<li><a href="#portfolio" class="menu-item slide-item go2portfolio">Portfolio</a></li>
+			<li><a href="#about" class="menu-item slide-item go2about">About</a></li>
+			<!-- <li><a href="#blog" class="menu-item slide-item go2blog">Blog</a></li> -->
+			<li><a href="#contact" class="menu-item slide-item go2contact">Contact</a></li>
+			<li>
+				<a target="_blank" href="https://github.com/kaitohara" class="fa fa-github"></a>
+				<a target="_blank" href="https://linkedin.com/in/kaitohara" class="fa fa-linkedin"></a>
+				<a target="_blank" href="https://soundcloud.com/kaitoh" class="fa fa-soundcloud"></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="content">
+
+		<div class="clear section"></div>
+		<div class="home section mobile-text bigname">
+			<p class="thin">KAITO</p>
+			<p class="thick">HARA</p>
+			<p class="small">I'm a fullstack Javascript developer and I like making stuff.</p>
+		</div>
+		<!-- <div class="home section mobile-text">
+			I'm a fullstack Javascript developer and I like making stuff.
+		</div> -->
+
+		<div class="portfolio section">
+			<h2 class="section-title">PORTFOLIO</h2>
+			<ul class="submenu">
+				<li><a class="show-code active">CODE</a></li>
+				<li><a class="show-music">MUSIC</a></li>
+			</ul>
+			<ul class="code-items portfolio-grid">
+				<li>
+					<img src="images/PulseTransparent.png" class="portfolio-img">
+				</li>
+				<li class="portfolio-text padding">
+					<h2>Pulse</h2>
+					<p>Pulse is a music app that lets everyone in the room use their mobile devices to contribute to a central playlist hosted on a computer. Great for parties and hang-outs.</p>
+					<br>
+					<a href="https://github.com/kaitohara/pulse" target="_blank">Github</a>
+				</li>
+
+				<li>
+					<img src="images/PostaTransparent.png" class="portfolio-img">
+				</li>
+				<li class="portfolio-text">
+					
+					<h2>Posta</h2>
+					<p>Posta is a collaborative productivity tool for teams who manage multiple shared inboxes.</p>
+					<br>
+					<a href="https://github.com/kaitohara/mailbox" target="_blank">Github</a>
+				</li>
+
+			</ul>
+			<div class="music-items portfolio-grid" style="display:none;">
+					<div id="player"></div>
+			</div>
+		</div>
+
+
+		<div class="about section mobile-text">
+			<h2 class="section-title">ABOUT</h2>
+			<div class="text">
+				Full stack Javascript developer with a background in finance and management. I like making things, like software, electronic music, and food.
+			</div>
+			<a href="images/resume.pdf" target="_blank" class="resume">View Resume</a>
+			<ul class="aboutlist">
+				<li>
+					<!-- <i class="fa fa-graduation-cap"></i> -->
+					<p>EDUCATION</p>
+					<ul class="sublist">
+						<!-- <li>Diploma</li> -->
+						<li>Fullstack Academy of Code</li>
+						<!-- <li>B.S. in Business</li> -->
+						<li>New York University</li>
+						<!-- <li>Diploma</li> -->
+						<li>Milton Academy</li>
+					</ul>
+				</li>
+<!-- 				<li>Experience
+					<ul>
+						<li></li>
+					</ul>
+				</li> -->
+				<li><p>SKILLS</p>
+					<ul class="sublist">
+						<li>Javascript</li>
+						<li>HTML/CSS</li>
+						<li>Javascript</li>
+						<li>HTML/CSS</li>
+					</ul>
+				</li>
+				<li><p>SKILLS</p>
+					<ul class="sublist">
+						<li>Javascript</li>
+						<li>HTML/CSS</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="contact section">
+			<h2 class="section-title">CONTACT</h2>
+			<p class="center">
+				Email me at <a href="mailto:kaito@kaitohara.com">kaito@kaitohara.com</a>
+			</p>
+
+			<!-- <form name="contactForm" onSubmit="return validateForm()">
+				<input type="text" placeholder="First Name" class="fname-input" name="fname"></input>
+				<input type="text" placeholder="Last Name" class="lname-input" name="lname"></input>
+				<input type="text" placeholder="Email Address" class="email-input" name="email"></input>
+				<textarea placeholder="Message" rows="7" name="message"></textarea>
+				<button>Submit</button>
+			</form> -->
+		</div>	
+	</div>
+
+	<footer>
+		<div class="footer-margin">
+			<div class="social-footer">
+				<a target="_blank" href="https://www.linkedin.com/in/kaitohara">
+					<i class="fa fa-linkedin"></i>LinkedIn</a>
+					<a target="_blank" href="https://github.com/kaitohara">
+						<i class="fa fa-github"></i>GitHub</a>
+					</div>
+					<div class="copyright">© Copyright 2015 kaitohara.com. All Rights Reserved.</div>
+				</div>
+			</footer>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
+			<script src="/js/merged.js"></script>
+
+			<script type="text/javascript">
+			var router = new ApplicationRouter($('#content'));
+			Backbone.history.start();
+			</script>
+
+			<script type="text/javascript" src="js/script.js"></script>
+			<script>
+			(function() {
+				var script = document.createElement("script");
+
+				script.type = "text/javascript";
+				script.async = true;
+				script.src = "//sd.toneden.io/production/v2/toneden.loader.js";
+
+				var entry = document.getElementsByTagName("script")[0];
+				entry.parentNode.insertBefore(script, entry);
+			}());
+
+			ToneDenReady = window.ToneDenReady || [];
+			ToneDenReady.push(function() {
+				ToneDen.configure({
+            soundcloudConsumerKey: '849f4d6badcaa152e2bdef7954fdcb62'
+        	});
+        // Modify the dom and urls parameters to position
+        // your player and select tracks/sets/artists to play.
+        ToneDen.player.create({
+        	dom: "#player",
+        	skin:'dark',
+        	urls: [
+        	"https://soundcloud.com/kaitoh"
+        	]
+        });
+    });
+			</script>
+		</body>
+		</html>
