@@ -14,10 +14,10 @@ app.use(
 );
 
 
-app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res, next){
-	var index = path.join(__dirname, 'public/html/index.html');
+	var index = path.join(__dirname, 'index.html');
 	res.sendFile(index);
 })
 
