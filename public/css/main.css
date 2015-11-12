@@ -5,7 +5,8 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #333333; }
+  color: #333333;
+  margin:0px; }
 
 #fullscreen {
   position: fixed;
